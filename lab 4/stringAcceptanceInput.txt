@@ -1,0 +1,4 @@
+S
+1
+S->aSb|e
+aabb$

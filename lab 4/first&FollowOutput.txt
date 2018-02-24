@@ -1,0 +1,22 @@
+Start Symbol : E
+
+Productions :
+E -> TG
+F -> a | bEc
+G -> dTG | e
+T -> FU
+U -> e | fFU
+
+FIRST : 
+E = {a , b}
+F = {a , b}
+G = {d , e}
+T = {a , b}
+U = {e , f}
+
+FOLLOW : 
+E = {$ , c}
+F = {$ , c , d , f}
+G = {$ , c}
+T = {$ , c , d}
+U = {$ , c , d}

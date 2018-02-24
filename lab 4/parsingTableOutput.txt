@@ -1,0 +1,13 @@
+Start Symbol : E
+String to check for acceptability : 
+
+Productions :
+
+FIRST : 
+
+FOLLOW : 
+E = {$}
+
+Predective Parsing Table : 
+
+Given grammar is LL1

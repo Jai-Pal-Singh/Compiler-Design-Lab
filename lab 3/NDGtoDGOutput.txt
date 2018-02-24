@@ -1,0 +1,21 @@
+Production Rules : 
+S:iEtS|iEtSeS|iES|abcd|abce|abf
+Production Rules after Left Factoring :
+S : ab[A2] | iE[A4]
+[A4]	:	S | tS[A3]
+[A3]	:	eS | î
+[A2]	:	c[A1] | f
+[A1]	:	d | e
+
+Production Rules : 
+S:aB|aC|aD
+Production Rules after Left Factoring :
+S : a[A1]
+[A1]	:	B | C | D
+
+Production Rules : 
+S:iEtS|iEtSeS|a
+Production Rules after Left Factoring :
+S : a | iEtS[A1]
+[A1]	:	eS | î
+

@@ -1,0 +1,19 @@
+Start Symbol : S
+String to check for acceptability : aabb$
+
+Productions :
+S -> aSb | e
+
+FIRST : 
+S = {a , e}
+
+FOLLOW : 
+S = {$ , b}
+
+Predective Parsing Table : 
+M[S , $] = S -> e
+M[S , a] = S -> aSb
+M[S , b] = S -> e
+
+Given grammar is LL1
+String Accepted

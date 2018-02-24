@@ -1,0 +1,10 @@
+E->+TE'
+E'->NULL
+E'->TE'
+
+T->*FT'
+T'->NULL
+T'->FT'
+
+F->(id)
+

@@ -1,0 +1,6 @@
+E
+E->TG
+G->dTG|e
+T->FU
+U->fFU|e
+F->a|bEc
