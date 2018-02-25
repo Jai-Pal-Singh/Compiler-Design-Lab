@@ -1,0 +1,35 @@
+Start symbol : S
+
+Productions :
+A -> aA | b
+S -> AA
+
+Items : 
+
+Item 0 => 
+S' -> .S
+S -> .AA
+A -> .aA
+A -> .b
+
+Item 1 => 
+S' -> S.
+
+Item 2 => 
+S -> A.A
+A -> .aA
+A -> .b
+
+Item 3 => 
+A -> a.A
+A -> .aA
+A -> .b
+
+Item 4 => 
+A -> b.
+
+Item 5 => 
+S -> AA.
+
+Item 6 => 
+A -> aA.
